@@ -17,7 +17,6 @@ MemGuard is a memory bandwidth reservation system for multi-core platforms.
 	- load the module
 	# insmod memguard.ko
 
-
 ## Usage
 Once the module is loaded, the thresholds can be set as follows:
 
