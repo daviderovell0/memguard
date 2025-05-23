@@ -8,7 +8,14 @@ MemGuard is a memory bandwidth reservation system for multi-core platforms.
 - May 2022 
   - read/write separate reservation (from [RTAS'19](https://www.ittc.ku.edu/~heechul/papers/cachedos-rtas2019-camera.pdf))
   - bandwidth reclaiming (re-enabled. originally from [RTAS'13](https://www.ittc.ku.edu/~heechul/papers/memguard-rtas13.pdf))
- 
+
+## Requirements
+
+For Ubuntu/Debian
+
+	sudo apt install build-essential flex bison libssl-dev libelf-dev
+
+
 ## Install
 
 	- build
